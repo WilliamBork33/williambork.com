@@ -1,0 +1,22 @@
+.about {
+  background-color: transparent;
+  font-size: 1.1em;
+}
+
+.profile {
+  max-width: 18em;
+}
+
+.my-details {
+  background-color: #F2EBE5;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #F2EBE5;
+}
+
+.p-2 {
+  color: #2B262D;
+}

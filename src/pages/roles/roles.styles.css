@@ -1,0 +1,22 @@
+.img-resize {
+  width: 2em;
+}
+
+.style {
+  font-size: 20px;
+}
+
+
+
+.body-title-style {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.focus {
+  transition: transform 0.3s;
+}
+
+.focus:hover {
+  transform: scale(1.05);
+}
