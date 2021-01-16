@@ -12,8 +12,8 @@ import "./skills.styles.css";
 
 function Skills () {
   return (
-    <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">PROFESSIONAL SKILLS</h1>
+    <div className="pt-3 pb-6" id="skills">
+      <h1 className="text-center font-details-b pb-4">SKILLS</h1>
       <CardDeck>
         <Row className="d-flex flex-fill justify-content-center">
 
