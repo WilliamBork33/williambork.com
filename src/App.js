@@ -43,7 +43,6 @@ function App() {
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
-
             <Roles />
           </Fade>
         </Container>
@@ -60,7 +59,6 @@ function App() {
           <ContactForm />
         </Fade>
       </Container>
-
       <hr />
       <FooterPanel />
     </div>
