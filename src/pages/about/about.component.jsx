@@ -39,25 +39,21 @@ function About () {
                 <p>
                   Available for research and data science work.
                 </p>
-                <Col className="d-flex justify-content-center flex-wrap">
-                <div>
-                    <a href="https://drive.google.com/file/d/16_ysYkaZHxrpA41vSdaUu4a31fxMgOx7/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        Full Resume
-                      </Button>
-                    </a>
-                  </div>
-{/*                   <div>
-                    <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
-                        Contact Me
-                      </Button>
-                    </a>
-                  </div> */}
-                </Col>
               </Row>
-            </Col>
-          </Row>
+              <Row>
+                <Col className="d-flex justify-content-center flex-wrap">
+
+                <div className="m-2">
+              <a href="https://drive.google.com/file/d/16_ysYkaZHxrpA41vSdaUu4a31fxMgOx7/view?usp=shari" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-dark" title="Full Resume">
+                  <i className="fas fa-regular fa-file"></i> Full Resume
+                </Button>
+              </a>
+            </div>
+                  </Col>
+                  </Row>
+                </Col>
+              </Row>  
         </Container>
       </div>
     </div>

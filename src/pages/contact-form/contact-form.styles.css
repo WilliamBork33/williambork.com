@@ -4,6 +4,11 @@
   background-repeat: no-repeat;
 } */
 
+.contact-jumbotron {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 #youtube-btn {
   border-color: #f83f37;
   color: #f83f37;
