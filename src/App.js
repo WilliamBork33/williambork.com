@@ -7,8 +7,8 @@ import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import Roles from "./pages/roles/roles.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+import Fade from "react-awesome-reveal";
+import Slide from "react-awesome-reveal";
 import { Parallax } from "react-parallax";
 import FooterPanel from './components/footer/footer.component';
 import './App.css';
@@ -26,38 +26,38 @@ function App() {
           strength={-200}>
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
+              {/* <Fade duration={500}> */}
                 <About />
-              </Fade>
+              {/* </Fade> */}
             </Container>
           </div>
         </Parallax>
       </div>
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        {/* <Slide bottom duration={500}> */}
           <hr />
           <Skills />
-        </Slide>
+        {/* </Slide> */}
       </Container>
       <div>
         <Container className="container-box rounded">
-          <Fade duration={500}>
+          {/* <Fade duration={500}> */}
             <hr />
             <Roles />
-          </Fade>
+          {/* </Fade> */}
         </Container>
       </div>
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        {/* <Slide bottom duration={500}> */}
           <hr />
           {/* <TimeLine /> */}
-        </Slide>
+        {/* </Slide> */}
       </Container>
       <Container className="container-box rounded">
-        <Fade duration={500}>
+        {/* <Fade duration={500}> */}
           <hr />
           <ContactForm />
-        </Fade>
+        {/* </Fade> */}
       </Container>
       <hr />
       <FooterPanel />

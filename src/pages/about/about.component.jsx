@@ -22,39 +22,38 @@ function About () {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 <p>
-                  Researcher and educator interested in data science, international education, and teacher professional practice.
+                  Researcher and educator applying sophisticated methods to provide actionable insights for clients broadly within the social sciences.
                 </p>
-                <br></br>
                 <p>
-                  I’ll run your data project end-to-end starting by data engineering your messy datasets, spanning multiple tables, into a tidy data frame ready for the rest of the data science pipeline including: quantitative research design, statistical analysis, statistical model building, and finally data visualizations.
+                  Expertise in hierarchical/mixed-level linear modeling, social network analysis, statistical programming, large-scale assessment,  data science, and more.
                 </p>
-                <br></br>
                 <p>
-                  Licensed as a P-12 school building principal. Former K-12 teacher with intercultural work experience in the USA, Mexico, and Taiwan.
+                  Experience spanning multiple sectors including education, government, and science policy.
                 </p>
-                <br></br>
+                <p>
+                  Former K-12 teacher with international work experience in Taiwan, Mexico and the United States of America.
+                </p>
                 <p>
                   Multilingual in English and Spanish.
                 </p>
-                <br></br>
                 <p>
-                  Seeking roles that allow me to apply data science in K-12 teaching and learning.
+                  Available for research and data science work.
                 </p>
                 <Col className="d-flex justify-content-center flex-wrap">
                 <div>
-                    <a href="https://drive.google.com/drive/folders/1UrtFXqf0niksYNmckwvVJfRq8kD8FNTO?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/16_ysYkaZHxrpA41vSdaUu4a31fxMgOx7/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
                         Full Resume
                       </Button>
                     </a>
                   </div>
-                  <div>
+{/*                   <div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
                         Contact Me
                       </Button>
                     </a>
-                  </div>
+                  </div> */}
                 </Col>
               </Row>
             </Col>

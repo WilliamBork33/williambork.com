@@ -9,73 +9,68 @@ import L_MSU from "../../assets/img/skills/michigan-state-university.svg";
 import L_GLOBAL from "../../assets/img/skills/globe.png";
 import L_ACCESSIBILITY from "../../assets/img/skills/accessibility.svg";
 import L_DATASCIENCE from "../../assets/img/skills/data-science.png";
+import L_MULTILEVEL from "../../assets/img/skills/multilevel.svg";
 import L_TEACHING from "../../assets/img/skills/teaching.png";
-import L_PRINCIPAL from "../../assets/img/skills/principal.png";
+import L_SOCIALNETWORK from "../../assets/img/skills/socialnetwork.png";
 import L_ONLINE from "../../assets/img/skills/online.png";
 import L_RLANG from "../../assets/img/skills/r-lang.png";
 import L_DATABASES from "../../assets/img/skills/databases.png";
+import L_PYTHON from "../../assets/img/skills/python.png";
 
 export const skills = {
   research: [
+    {
+      link: "https://en.wikipedia.org/wiki/Multilevel_model",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_MULTILEVEL,
+      skillName: "Multilevel Modeling",
+    },
+    {
+      link: "https://en.wikipedia.org/wiki/Social_network_analysis",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_SOCIALNETWORK,
+      skillName: "Social Network Analysis",
+    },
+    {
+      link: "#skills",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_GLOBAL,
+      skillName: "Large-Scale Assessment",
+    }
+  ],
+
+  technicalSkills: [
     {
       link: "https://en.wikipedia.org/wiki/Data_science",
       imgAltText: "Hyperlinked decorative image for each skill",
       imgSrc: L_DATASCIENCE,
       skillName: "Data Science",
     },
-    {
-      link: "https://education.msu.edu/outreach/global/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_GLOBAL,
-      skillName: "Global Education",
-    },
-    {
-      link: "https://www.seismicproject.org/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_SEISMIC,
-      skillName: "SEISMIC",
-    }
-  ],
-
-  technicalSkills: [
-    {
-      link: "https://en.wikipedia.org/wiki/HTML5",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_HTML5,
-      skillName: "HTML5",
-    },
-    {
-      link: "https://en.wikipedia.org/wiki/CSS",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_CSS3,
-      skillName: "CSS3",
-    },
-    {
-      link: "https://en.wikipedia.org/wiki/JavaScript",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
-    
-    {
-      link: "https://firebase.google.com/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_DATABASES,
-      skillName: "Databases",
-    },
-    {
-      link: "https://reactjs.org/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_REACT,
-      skillName: "React JS",
-    },
-   
-    {
+        {
       link: "https://www.r-project.org/",
       imgAltText: "Hyperlinked decorative image for each skill",
       imgSrc: L_RLANG,
       skillName: "R & RStudio",
     },
+    {
+      link: "https://www.python.org/",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_PYTHON,
+      skillName: "Python",
+    },
+    {
+      link: "https://en.wikipedia.org/wiki/Relational_database",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_DATABASES,
+      skillName: "Databases",
+    },
+/*     {
+      link: "https://reactjs.org/",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_REACT,
+      skillName: "React JS",
+    }, */
+
 
     {
       link: "https://git-scm.com/",
@@ -83,14 +78,12 @@ export const skills = {
       imgSrc: L_GIT,
       skillName: "Version Control",
     },
-
     {
-      link: "https://www.heroku.com/",
+      link: "https://en.wikipedia.org/wiki/JavaScript",
       imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_HEROKU,
-      skillName: "Website Deployment",
-    },
-    
+      imgSrc: L_JAVASCRIPT,
+      skillName: "Web Development",
+    }    
   ],
 
   teaching: [
@@ -98,13 +91,13 @@ export const skills = {
       link: "#skills",
       imgAltText: "Hyperlinked decorative image for each skill",
       imgSrc: L_TEACHING,
-      skillName: "K-12 Teacher",
+      skillName: "K-12 Teaching",
     },
     {
-      link: "",
+      link: "http://www.educ.msu.edu/",
       imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_PRINCIPAL,
-      skillName: "School Principal",
+      imgSrc: L_MSU,
+      skillName: "Higher Education",
     },
     {
       link: "",
@@ -118,12 +111,7 @@ export const skills = {
       imgSrc: L_ACCESSIBILITY,
       skillName: "Digital Accessibility",
     },
-    {
-      link: "http://www.educ.msu.edu/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_MSU,
-      skillName: "Higher Ed",
-    }
+
   ],
 
 };
