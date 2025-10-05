@@ -1,4 +1,3 @@
-import React from 'react';
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
@@ -14,7 +13,7 @@ const MyTitleMessage = styled.h1`
     font-size: 1.25em;
   }
   div {
-    color: ${props => props.theme.textColor};
+    color: ${(props) => props.theme.textColor};
 
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
@@ -31,40 +30,40 @@ const MyTitleMessage = styled.h1`
   }
 `;
 
-function TitleMessage () {
+function TitleMessage() {
   return (
-  <MyTitleMessage>
-    <div className="titleMessage">
-      <div className="heading">
-        <div className="main text-center mb-3">
-          <Typewriter
-            options={{
-              strings: ["Hello", "Hola", "你好"],
-              autoStart: true,
-              loop: true,
-              delay: 50
-            }}
-          />
-          I am
-          <br />
-          <span>
-            <strong>William</strong>
-          </span>
-        </div>
-        <div className="sub">
-          <Typewriter
-            options={{
-              strings: ["Researcher", "Educator", "Pokemon Master"],
-              autoStart: true,
-              loop: true,
-              delay: 50
-            }}
-          />
+    <MyTitleMessage>
+      <div className="titleMessage">
+        <div className="heading">
+          <div className="main text-center mb-3">
+            <Typewriter
+              options={{
+                strings: ["Hello", "Hola", "你好"],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+              }}
+            />
+            I am
+            <br />
+            <span>
+              <strong>William</strong>
+            </span>
+          </div>
+          <div className="sub">
+            <Typewriter
+              options={{
+                strings: ["Researcher", "Educator", "Pokemon Master"],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+              }}
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </MyTitleMessage>
+    </MyTitleMessage>
   );
-};
+}
 
 export default TitleMessage;

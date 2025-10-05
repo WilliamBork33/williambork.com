@@ -1,10 +1,5 @@
-import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_REACT from "../../assets/img/skills/react.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
-import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_SEISMIC from "../../assets/img/skills/seismic_logo.png";
 import L_MSU from "../../assets/img/skills/michigan-state-university.svg";
 import L_GLOBAL from "../../assets/img/skills/globe.png";
 import L_ACCESSIBILITY from "../../assets/img/skills/accessibility.svg";
@@ -64,14 +59,6 @@ export const skills = {
       imgSrc: L_DATABASES,
       skillName: "Databases",
     },
-/*     {
-      link: "https://reactjs.org/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_REACT,
-      skillName: "React JS",
-    }, */
-
-
     {
       link: "https://git-scm.com/",
       imgAltText: "Hyperlinked decorative image for each skill",
@@ -111,7 +98,5 @@ export const skills = {
       imgSrc: L_ACCESSIBILITY,
       skillName: "Digital Accessibility",
     },
-
   ],
-
 };

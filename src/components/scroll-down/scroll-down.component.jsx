@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from "styled-components";
 
 const MyScroll = styled.div`
@@ -19,7 +18,7 @@ const MyScroll = styled.div`
   }
 `;
 
-function ScrollDown () {
+function ScrollDown() {
   return (
     <MyScroll>
       <div className="turn">
@@ -27,6 +26,6 @@ function ScrollDown () {
       </div>
     </MyScroll>
   );
-};
+}
 
 export default ScrollDown;

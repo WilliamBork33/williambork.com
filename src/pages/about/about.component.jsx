@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -7,7 +6,7 @@ import Profile from "../../assets/img/profile/profile.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
-function About () {
+function About() {
   return (
     <div id="about">
       <div className="about">
@@ -16,48 +15,59 @@ function About () {
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2">
-                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                <Image
+                  className="profile justify-content-end"
+                  alt="profile"
+                  src={Profile}
+                  thumbnail
+                  fluid
+                />
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
+              <Row className="align-items-start p-2 my-details rounded">
                 <p>
-                  Researcher and educator applying sophisticated methods to provide actionable insights for clients broadly within the social sciences.
+                  Researcher and educator applying sophisticated methods to
+                  provide actionable insights for clients broadly within the
+                  social sciences.
                 </p>
                 <p>
-                  Expertise in hierarchical/mixed-level linear modeling, social network analysis, statistical programming, large-scale assessment,  data science, and more.
+                  Expertise in hierarchical/mixed-level linear modeling, social
+                  network analysis, statistical programming, large-scale
+                  assessment, data science, and more.
                 </p>
                 <p>
-                  Experience spanning multiple sectors including education, government, and science policy.
+                  Experience spanning multiple sectors including education,
+                  government, and science policy.
                 </p>
                 <p>
-                  Former K-12 teacher with international work experience in Taiwan, Mexico and the United States of America.
+                  Former K-12 teacher with international work experience in
+                  Taiwan, Mexico and the United States of America.
                 </p>
-                <p>
-                  Multilingual in English and Spanish.
-                </p>
-                <p>
-                  Available for research and data science work.
-                </p>
+                <p>Multilingual in English and Spanish.</p>
+                <p>Available for research and data science work.</p>
               </Row>
               <Row>
                 <Col className="d-flex justify-content-center flex-wrap">
-
-                <div className="m-2">
-              <a href="https://drive.google.com/file/d/16_ysYkaZHxrpA41vSdaUu4a31fxMgOx7/view?usp=shari" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-dark" title="Full Resume">
-                  <i className="fas fa-regular fa-file"></i> Full Resume
-                </Button>
-              </a>
-            </div>
-                  </Col>
-                  </Row>
+                  <div className="m-2">
+                    <a
+                      href="https://drive.google.com/file/d/16_ysYkaZHxrpA41vSdaUu4a31fxMgOx7/view?usp=shari"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="dark" title="Full Resume">
+                        <i className="fas fa-regular fa-file"></i> Full Resume
+                      </Button>
+                    </a>
+                  </div>
                 </Col>
-              </Row>  
+              </Row>
+            </Col>
+          </Row>
         </Container>
       </div>
     </div>
   );
-};
+}
 
 export default About;
