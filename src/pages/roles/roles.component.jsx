@@ -8,8 +8,9 @@ import "./roles.styles.css";
 function Roles() {
   return (
     <div id="roles">
-      <h1 className="pt-3 text-center font-details-b pb-3">CURRENT ROLES</h1>
-
+      <h1 className="pt-3 text-center font-details-header pb-3">
+        CURRENT ROLES
+      </h1>
       <Container>
         <Card className="focus">
           <Card.Header

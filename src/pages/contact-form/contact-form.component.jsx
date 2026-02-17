@@ -8,7 +8,9 @@ import { Container } from "react-bootstrap";
 function ContactForm() {
   return (
     <div id="contact">
-      <h1 className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
+      <h1 className="pt-3 text-center font-details-header pb-3">
+        CONTACT WILLIAM
+      </h1>
       <Card className="focus mt-2 mb-2">
         <Container fluid className="p-2 my-4 rounded-3">
           <Row>

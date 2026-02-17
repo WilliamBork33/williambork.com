@@ -5,11 +5,12 @@ import L_GLOBAL from "../../assets/img/skills/globe.png";
 import L_ACCESSIBILITY from "../../assets/img/skills/accessibility.svg";
 import L_DATASCIENCE from "../../assets/img/skills/data-science.png";
 import L_MULTILEVEL from "../../assets/img/skills/multilevel.svg";
+import L_LLAMA from "../../assets/img/skills/llama.svg";
 import L_TEACHING from "../../assets/img/skills/teaching.png";
 import L_SOCIALNETWORK from "../../assets/img/skills/socialnetwork.png";
 import L_ONLINE from "../../assets/img/skills/online.png";
+import L_PROXMOX from "../../assets/img/skills/proxmox-logo-stacked-color.png";
 import L_RLANG from "../../assets/img/skills/r-lang.png";
-import L_DATABASES from "../../assets/img/skills/databases.png";
 import L_PYTHON from "../../assets/img/skills/python.png";
 
 export const skills = {
@@ -45,7 +46,7 @@ export const skills = {
       link: "https://www.r-project.org/",
       imgAltText: "Hyperlinked decorative image for each skill",
       imgSrc: L_RLANG,
-      skillName: "R & RStudio",
+      skillName: "R",
     },
     {
       link: "https://www.python.org/",
@@ -54,11 +55,17 @@ export const skills = {
       skillName: "Python",
     },
     {
-      link: "https://en.wikipedia.org/wiki/Relational_database",
+      link: "https://proxmox.com/en/",
       imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_DATABASES,
-      skillName: "Databases",
+      imgSrc: L_PROXMOX,
+      skillName: "Server Deployment",
     },
+    {
+      link: "https://github.com/ggml-org/llama.cpp",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_LLAMA,
+      skillName: "Local Generative AI",
+    },    
     {
       link: "https://git-scm.com/",
       imgAltText: "Hyperlinked decorative image for each skill",
