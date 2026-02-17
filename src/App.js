@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import MyCarousel from "./components/carousel/carousel.component";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
-import Roles from "./pages/roles/roles.component";
+import Portfolio from "./pages/portfolio/portfolio.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
 import FooterPanel from './components/footer/footer.component';
@@ -36,7 +36,7 @@ function App() {
       <div>
         <Container className="container-box rounded">
             <hr />
-            <Roles />
+            <Portfolio />
         </Container>
       </div>
       <Container className="container-box rounded">

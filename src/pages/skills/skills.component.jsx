@@ -8,7 +8,7 @@ import "./skills.styles.css";
 function Skills() {
   return (
     <div className="pt-3 pb-6" id="skills">
-      <h1 className="text-center font-details-b pb-4">SKILLS</h1>
+      <h1 className="text-center font-details-header pb-4">SKILLS</h1>
       <Row className="d-flex flex-fill justify-content-center">
         {/* Research */}
         <Col md={4}>
