@@ -35,6 +35,33 @@ export const skills = {
     }
   ],
 
+    teaching: [
+    {
+      link: "#skills",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_TEACHING,
+      skillName: "K-12 Teaching",
+    },
+    {
+      link: "http://www.educ.msu.edu/",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_MSU,
+      skillName: "Higher Education",
+    },
+    {
+      link: "",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_ONLINE,
+      skillName: "Sync, Async, Online",
+    },
+    {
+      link: "https://www.a11yproject.com/",
+      imgAltText: "Hyperlinked decorative image for each skill",
+      imgSrc: L_ACCESSIBILITY,
+      skillName: "Digital Accessibility",
+    },
+  ],
+
   technicalSkills: [
     {
       link: "https://en.wikipedia.org/wiki/Data_science",
@@ -78,32 +105,5 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "Web Development",
     }    
-  ],
-
-  teaching: [
-    {
-      link: "#skills",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_TEACHING,
-      skillName: "K-12 Teaching",
-    },
-    {
-      link: "http://www.educ.msu.edu/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_MSU,
-      skillName: "Higher Education",
-    },
-    {
-      link: "",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_ONLINE,
-      skillName: "Sync, Async, Online",
-    },
-    {
-      link: "https://www.a11yproject.com/",
-      imgAltText: "Hyperlinked decorative image for each skill",
-      imgSrc: L_ACCESSIBILITY,
-      skillName: "Digital Accessibility",
-    },
   ],
 };

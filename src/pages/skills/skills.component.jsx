@@ -14,7 +14,6 @@ function Skills() {
         <Col md={4}>
           <Card className="focus mt-2 mb-2">
             <Card.Body>
-              {/* Frontend */}
               <Card.Title className="text-center card-title">
                 Research
               </Card.Title>
@@ -77,7 +76,6 @@ function Skills() {
         <Col md={4}>
           <Card className="focus mt-2 mb-2">
             <Card.Body>
-              {/* Frontend */}
               <Card.Title className="text-center card-title">
                 Technical
               </Card.Title>
