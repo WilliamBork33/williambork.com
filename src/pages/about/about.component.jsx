@@ -45,18 +45,39 @@ function About() {
                   Taiwan, Mexico and the United States of America.
                 </p>
                 <p>Multilingual in English and Spanish.</p>
-                <p>Available for research and data science work.</p>
+                <p>
+                  Research scientist and co-owner of
+                  <a
+                    href="https://stem-ecosystem-evaluation.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    STEM Ecosystem Evaluations (SEE)
+                  </a>
+                </p>
               </Row>
               <Row>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div className="m-2">
                     <a
-                      href="https://drive.google.com/file/d/16_ysYkaZHxrpA41vSdaUu4a31fxMgOx7/view?usp=shari"
+                      href="https://drive.google.com/file/d/12iqmd2Funu6ePWhY7btQXAkJx5iRn_-h/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Button variant="dark" title="Full Resume">
-                        <i className="fas fa-regular fa-file"></i> Full Resume
+                        <i className="fas fa-regular fa-file"></i> Resume
+                      </Button>
+                    </a>
+                  </div>
+                  <div className="m-2">
+                    <a
+                      href="https://drive.google.com/file/d/16_ysYkaZHxrpA41vSdaUu4a31fxMgOx7/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="dark" title="Full Resume">
+                        <i className="fas fa-regular fa-file"></i> Full CV
                       </Button>
                     </a>
                   </div>

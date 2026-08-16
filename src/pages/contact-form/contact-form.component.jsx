@@ -17,11 +17,14 @@ function ContactForm() {
             <Col className="d-flex justify-content-center flex-wrap">
               <div className="m-2">
                 <a
-                  href="mailto:borkwill@msu.edu"
+                  href="mailto:williambork33@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button variant="outline-success" title="borkwill@msu.edu">
+                  <Button
+                    variant="outline-success"
+                    title="williambork33@gmail.com"
+                  >
                     <i className="fas fa-envelope-square"></i> Email
                   </Button>
                 </a>

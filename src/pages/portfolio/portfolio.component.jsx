@@ -5,6 +5,7 @@ import Image from "react-bootstrap/Image";
 import IJC_SNA_Screenshot from "../../assets/img/portfolio/ijc_sna_screenshot.png";
 import VIS_THUMBNAIL from "../../assets/img/portfolio/interactive_visualization_thumbnail.png";
 import Carousel from "react-bootstrap/Carousel";
+import SLIDE0 from "../../assets/img/portfolio/matematica.png";
 import SLIDE1 from "../../assets/img/portfolio/lsae.png";
 import SLIDE2 from "../../assets/img/portfolio/jrst.png";
 import SLIDE3 from "../../assets/img/portfolio/ice.png";
@@ -126,6 +127,36 @@ function Portfolio() {
                 <br />
               </Card.Text>
               <Carousel className="carousel-controls-pubs">
+                <Carousel.Item className="carousel-item-pubs">
+                  Piercey, V., Greene, A.L.L., Pabón, J.L., Aminian, M., Bales,
+                  K., Busch, T.N., Baumunk, B., O'Brienhalla, J., Parker, B.A.,
+                  Bork Rodriguez, W.N. (2026). Data Science and Genocide
+                  Prevention. <i>La Matematica, 5</i>(3), Article 54. 1-29.{" "}
+                  <a
+                    href="https://doi.org/10.1007/s44007-026-00237-6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://doi.org/10.1007/s44007-026-00237-6
+                  </a>
+                  <br />
+                  <br />
+                  <a
+                    href="https://doi.org/10.1007/s44007-026-00237-6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      className="SLIDE0 justify-content-end img-thumbnail-pubs"
+                      alt="SLIDE0"
+                      src={SLIDE0}
+                      thumbnail
+                      fluid
+                    />
+                  </a>
+                  <br />
+                  <br />
+                </Carousel.Item>
                 <Carousel.Item className="carousel-item-pubs">
                   Bork Rodriguez, W.N., Finnegan, R., & Por, H. (2025). How
                   lessons learned from NAEP 2022 during the COVID-19 pandemic
